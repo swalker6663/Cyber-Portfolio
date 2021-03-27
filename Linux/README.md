@@ -1,4 +1,4 @@
-Step 1: Ensure/Double Check Permissions on Sensitive Files
+## Ensure/Double Check Permissions on Sensitive Files
 
 
 Permissions on /etc/shadow should allow only root read and write access.
@@ -48,7 +48,7 @@ Command to set permissions (if needed): sudo chmod <octal>/etc/passwd
 
 
 
-Step 2: Create User Accounts
+## Create User Accounts
 
 
 Add user accounts for sam, joe, amy, sara, and admin.
@@ -64,7 +64,7 @@ Command to add admin to the sudo group: sudo usermod aG sudo admin
 
 
 
-Step 3: Create User Group and Collaborative Folder
+## Create User Group and Collaborative Folder
 
 
 Add an engineers group to the system.
@@ -93,7 +93,7 @@ Command to change ownership of engineer's shared folder to engineer group: sudo 
 
 
 
-Step 4: Lynis Auditing
+## Lynis Auditing
 
 
 Command to install Lynis: sudo apt install lynis
